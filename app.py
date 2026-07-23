@@ -1,5 +1,6 @@
 import sys
 
+
 # Silence Windows-specific asyncio proactor event loop ConnectionResetError (WinError 10054) console spam
 if sys.platform == 'win32':
     import asyncio
